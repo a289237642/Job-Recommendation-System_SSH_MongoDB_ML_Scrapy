@@ -1,0 +1,8 @@
+运行环境：
+1.安装scrapy爬虫框架、安装MongoDB数据库
+2.MongoDB数据库的IP地址写在了resume的"com.xinchen.dao.DataDaoImpl.java的108行"以及"com.sizhou.action.ResumeAction"的第29行。修改完毕后使用Eclipse编译至tomcat中
+3.将Scrapy和Data_Classification安装至D盘
+4.运行apache-tomcat-7.0.67
+
+文档补充说明：
+Document_processor是SVM部分代码的工程。因为在项目中直接使用的是该工程打成的jar包，所以特地将源代码贴出。
